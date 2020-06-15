@@ -21,7 +21,6 @@ namespace FY2020TrainingBoshimo
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                }
-                );
+                });
     }
 }
